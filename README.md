@@ -10,3 +10,5 @@ Ejercicios de Laboratoria
 [Session-03](https://create.kahoot.it/share/gym-session-02/13cd003e-e988-4061-b247-b5b3c542cd98)
 
 [Session-04](https://create.kahoot.it/share/gym-session-04/3660e665-90b2-4bc0-9ed7-60ac23df7293)
+
+[Session-05](https://create.kahoot.it/details/109feb5e-8f37-4d9e-ab88-dd1fbed3fdc9)
