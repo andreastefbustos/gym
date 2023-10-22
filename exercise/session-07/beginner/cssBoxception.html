@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxception</title>
+</head>
+<body>
+    <div class="container">
+        <div class="dark-green"></div>
+        <div class="light-green"></div>
+        <div class="light"></div>
+    </div>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F3AC3C;
+        }
+       .container {
+           position: relative;
+           width: 200px; 
+           height: 200px;
+           background-color: #1A4341;
+        }
+         
+       .light-green {
+           position: absolute;
+           right: 50%;
+           bottom: 0;
+           width: 50%;
+           height: 50%;
+           background-color: #998235;
+       }
+       
+       .light {
+         position: absolute;
+           right: 50%;
+           bottom: 0;
+           width: 25%;
+           height: 25%;
+           background-color: #F3AC3C;
+        }
+    </style>
+</div>
+</body>
+</html>

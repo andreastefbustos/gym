@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxception</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bar light"></div>
+        <div class="bar dark"></div>
+        <div class="bar light"></div>
+        <div class="bar dark"></div>
+        <div class="bar light"></div>
+    </div>
+
+    <style>
+        body {
+            background-color: #1A4341;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+        display: flex;
+        gap: 20px; /* Espacio entre cada barra */
+        }
+
+        .bar {
+        width: 50px; /* Ancho de la barra */
+        height: 200px; /* Altura total de la barra */
+        border-radius: 25px 25px 0 0; /* Curvatura superior de la barra */
+        }
+
+        .light {
+            background-color: #F3AC3C;
+            align-self: flex-end;
+        }
+
+        .dark {
+            background-color: #998235;
+            border-radius: 0 0 25px 25px;
+            align-self: flex-start;
+        }
+    </style>
+</body>
+</html>
