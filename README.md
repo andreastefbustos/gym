@@ -22,3 +22,5 @@ Ejercicios de Laboratoria
 [Session-09](https://create.kahoot.it/details/ea4bb1be-0fb8-4e97-9c87-47c219cfcd81)
 
 [Session-11](https://create.kahoot.it/share/gym-session-11/3f0b557f-547f-4573-b686-50512e9a4b69)
+
+[Session-12](https://create.kahoot.it/share/sesion-12/d50305a3-00ec-4077-acc2-fce562b66d71)
