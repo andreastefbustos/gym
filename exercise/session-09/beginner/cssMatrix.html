@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box one"></div>
+        <div class="box two"></div>
+        <div class="box three"></div>
+        <div class="box four"></div>
+        <div class="box five"></div>
+        <div class="box six"></div>
+        <div class="box seven"></div>
+        <div class="box eigth"></div>
+        <div class="box nine"></div>
+        <div class="box ten"></div>
+        <div class="box eleven"></div>
+        <div class="box twelve"></div>
+    </div>
+    <style>
+        body {
+            background: #5C434C;
+            margin: 0
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            padding: 10px;
+        }
+        .box {
+            width: 80px;
+            height: 80px;
+            border-radius: 1000px 0 0;
+        }
+        .one, .three, .six, .eigth, .nine, .eleven {
+            background: #F09462;
+        }
+        .two, .four, .five, .seven, .ten, .twelve {
+            background: #F5D6B4;
+        }
+    </style>
+</body>
+</html>
